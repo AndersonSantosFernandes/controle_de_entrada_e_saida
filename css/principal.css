@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --shad: 5px 5px 5px green;
+    --borda: 1px solid green;
+    --cabecalhoo: white;
+    --radius: 15px;
+}
+body{
+    /* background-image: url("../imagem/branco.jpg"); */
+    font-family: 'Titillium Web', sans-serif;
+   
+}
+table{
+    /* border-bottom: 1px solid purple; */
+    border-collapse: collapse;
+    /* background-color: rgba(230, 210, 248, 0.555); */
+    margin: auto;
+    font-weight: bold;
+    font-size: 25px;
+}
+table tr, td{
+    border-bottom: 1px solid purple;
+    padding: 3px 6px;
+}
+table tr td#codigo{
+    width: 620px;
+}
+div#msg{
+    width: 710px;
+    
+    border: 1px solid purple;
+    margin: auto;
+    padding: 5px;
+}
+div#msg h1{
+    background-color: rgba(255,255,255,0.4) ;
+    text-align: center;
+    border: 1px solid purple;
+}
+fieldset#form{
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.4);
+    margin-top: 15px; 
+}
+fieldset#form a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+fieldset#form a:hover{
+    text-decoration: underline;
+    color: black; 
+      
+}
+header#cabecalho{
+    background-color: rgb(0, 128, 100) ;
+    padding: 10px 0px;
+    text-align: center;
+}
+header#cabecalho h1{
+    color: var(--cabecalhoo);
+}
+div#master{  
+    width: 740px;  
+    margin: 50px auto;
+    /* border: var(--borda); */
+}
+div#indexMain{
+    width: 750px;
+    height: 450px;
+    /* border: var(--borda);  */
+    display: inline-flex;
+    
+}
+div#ponto{
+    width: 300px;
+    height: 95%;
+    /* border: var(--borda);   */
+    padding: 10px;  
+   background-image: linear-gradient(rgb(0, 128, 100),rgb(104, 110, 104),rgb(0, 128, 100));
+}
+div#login{
+    width: 400px;
+    height: 95%;
+    /* border: var(--borda);  */
+    padding: 10px;  
+    background-image: url(../imagem/ponto.png); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: 50% 50%;
+}
+input#log{
+    width: 280px;
+    padding: 10px 5px;
+    margin: 20px auto;
+    display: block;
+    font-size: 20px;
+    border-radius: var(--radius);
+}
+div#msgLogin{
+    width: 250px;
+    margin: auto;
+    border: 1px solid green;
+    padding: 10px;
+}
+div#msgLogin p{
+    font-size: 23px;
+}

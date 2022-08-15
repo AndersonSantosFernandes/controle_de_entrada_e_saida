@@ -1,0 +1,17 @@
+div#cadastro{
+    width:340px ;
+    /* border: var(--borda); */
+    margin: 30px auto;
+    text-align: center;
+}
+div#cadastro p{
+    font-size: 22px;
+}
+input.cad{
+    width: 300px;
+    padding: 15px;
+    font-size: 18px;
+    display: block;
+    margin: 10px auto;
+    border-radius: var(--radius);
+}
